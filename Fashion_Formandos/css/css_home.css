@@ -1,0 +1,87 @@
+﻿body{font-family: 'Lucida Sans Unicode', 'Lucida Grande';}
+
+.menu_opcoes li{
+    font-size: 15px;
+    /* menu na horizontal */
+    display: inline; 
+    margin-left: 20px;
+
+}
+
+.menu_opcoes a{
+    color: #003366;
+}
+
+
+/* permite posicionar os elementos com base no header */
+header{
+    position:relative;
+
+}
+
+.menu_opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.container{
+    /* centra todos os objeto do container */
+    margin: 0 auto;
+    width: 940px;
+}
+
+.menu_artigos{
+    background-color: #dcdcdc;
+    font-weight: bold;
+    /* trasnforma texto em maiusculas */
+    text-transform: uppercase;
+    width: 230px;
+    float: left;
+    margin-right: 10px;
+}
+
+.menu_artigos h2{margin: 10px;}
+
+.menu_artigos li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.menu_artigos a{
+    color: #333333;
+    /* tira sublinhado da hiperligação */
+    text-decoration: none;
+}
+
+figure{
+    background-color: #dcdcdc;
+    width: 205px;
+    height: 180px;
+    float: left;
+    margin: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer{
+    background-image: url(../img/fundo-rodape.png);
+/* para ignorar o float left do figure */
+clear: left;
+padding: 20px;
+/* para poder ser utilizado o absoluto, como no cabeçalho */
+position: relative;
+}
+
+.social li{
+    display: inline;
+    margin-left: 25px;
+}
+
+.social{
+    /* posicionar a lista tendo por base o footer */
+    position: absolute;
+    top:15px;
+    right: 20px;
+
+}

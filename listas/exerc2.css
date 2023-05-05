@@ -1,0 +1,17 @@
+﻿
+h1
+{
+font-family: Tahoma, Verdana, Arial;
+}
+
+h1,h2,h3{color: red;}
+
+body
+{
+    font-size: 10px;
+}
+
+
+.alinha{text-align: center;}
+.limite img {border: solid 2px black; }
+

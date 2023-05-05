@@ -1,0 +1,49 @@
+﻿<html>
+<head>
+<title>Formulario</title>
+</head>
+<body>
+    <form method="Post" action="envio_dados.php">
+        Nome:<input type="text" name="nome" placeholder="Digite o seu nome">
+        <br> <br>
+        Email:<input type="email" name="email" placeholder="Digite o seu email">
+        <br> <br>
+        Data de nascimento:<input type="date" name="datanascimento">
+        <br> <br>
+        Submeter: <input type="submit" name="enviar" value="Enviar">
+
+        <hr>
+        <h4>Meios de transportes utilizados</h4>
+        <input type="checkbox" name="op1" value="Bicicleta">&nbsp &nbsp Bicicleta<br>
+        Carro<input type="checkbox" name="op2" value="Carro"><br>
+        <input type="checkbox" name="op3" value="Mota">Mota<br>
+        <hr>
+        <h4>Género:</h4>
+        <input type="radio" name="g1" value="masculino">Masculino<br>
+        <input type="radio" name="g1" value="feminino">Feminino<br>
+    </form>
+
+
+
+
+<h3 align=center>Inserir Vídeo</h3>
+<p align=center><video  width=320 hight=240 src="video.mp4" controls muted></video></p>
+   
+<br>
+
+<p align=center><iframe width="320" height="240" src="https://www.youtube.com/embed/nTbl_llwkI8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- autoplay: permite que o video inicie automaticamente -->
+<!-- controls: permite visualizar os elementos do controlo do video -->
+<!-- loop: inicializa o video quando termina -->
+<!-- muted: retirar o som-->
+
+<br>
+<br>
+
+<audio src="musica.mp3" type="audio/mpeg" autoplay controls muted>
+    <!-- autoplay: inicia automaticamente -->
+    <!-- loop: repete automaticamente -->
+    <!-- muted: sem som -->
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+﻿
+body{font-family: 'Lucida Sans Unicode', 'Lucida Grande';}
+
+h2{ background-color:chocolate;
+    text-align: center;
+    margin: 10px;
+    
+    }
+
+p{  padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    line-height:2;
+    margin: 10px;}
+
+.menu_opcoes li{
+    font-size: 15px;
+    /* menu na horizontal */
+    display: inline; 
+    margin-left: 25px;}
+
+.menu_opcoes a{
+    color: green;
+    text-decoration: none;}
+
+header{
+    margin: 10px;
+    /* permite posicionar os elementos com base no header */
+    position:relative;}
+
+.menu_opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;}
+
+.conteudo_home img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteudo_sobre img{
+    margin: 10px;
+    float:left; 
+    border: solid 2px black;}
+
+
+.conteudo_galeria img{ 
+    width: 250px;
+    height: 150px;
+    border: 2px solid black;
+    margin-left: 60px;}
+
+figure{
+    float: left;  
+    text-align: center;}
+
+.footer_galeria{
+    /* para ignorar o float left do figure */
+    clear: left;
+    background-color:darkgreen;
+    color: white;
+    margin: 10px;
+}
+
+footer{
+    background-color:darkgreen;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+footer p{
+    text-align: center;}

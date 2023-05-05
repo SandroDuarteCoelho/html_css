@@ -1,0 +1,22 @@
+﻿
+p{
+    text-align: justify;
+    line-height:1.5;
+    
+}
+
+h3{
+background-color: black;
+color: white;
+
+}
+
+body{
+
+    font-family: "Helvetica", "Arial";
+}
+
+img{
+    float:left; margin-right: 5px;
+    /* clear:left --> o texto começa no primeiro paragrafo livre seguinte, sem imagem/objeto antes */
+}

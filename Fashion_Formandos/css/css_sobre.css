@@ -1,0 +1,59 @@
+﻿body{font-family: 'Lucida Sans Unicode', 'Lucida Grande';}
+
+h1{
+    background-image: url(../img/fundo_h1.jpg);
+    padding: 10px;
+}
+
+p{
+    text-align: justify;
+    line-height: 2.5;
+    margin:0px 30px;
+}
+
+li{
+    line-height: 2.5;
+}
+
+figure{
+    background-color: #F2EDED;
+    border: solid 1px #CCCCCC;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+figcaption{
+    font-style: italic;
+    margin-top: 10px;
+}
+
+h2{
+    border-bottom: solid 2px black;
+    margin-top: 30px;
+}
+
+
+#fig_cdistribuicao{
+
+    width: 550px;
+    margin-left: auto; /* centra na página */
+    margin-right: auto;/* centra na página */
+}
+
+#foto_familia{
+    float: right;
+    margin: 0 35px 10px 10px;
+}
+
+#rodape{
+    color: #777777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img {
+    width: 100px;
+    vertical-align: middle;
+    margin-right: 30px;
+}

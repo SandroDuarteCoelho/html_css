@@ -1,0 +1,30 @@
+﻿/* 
+p{ 
+    text-align: justify;
+    line-height:1.5;
+    
+}
+*/
+
+h3{text-align: center;
+/* background-color: black;
+color: white;*/
+}
+
+figure{background-color: #F2EDED;
+border:1px solid #CCCCCC;
+padding: 15px;
+margin: 30px;}
+
+figcaption{
+    text-align: center;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.alinha{text-align: center;}
+.limite img {border: solid 2px black; }
+
+/* auto altera tamanho proporcionalmente */
+.tamanho img{width: 200px; height: auto;}
+.alinha img{border: solid 2px black; margin: 10px; vertical-align: middle;}
